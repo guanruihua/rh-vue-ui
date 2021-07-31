@@ -2,18 +2,12 @@
 
 ## Project setup
 ```
-npm install
+npm install rh-vue-ui
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Use UI Component
 
-### Compiles and minifies for production
 ```
-npm run build
+import RHUI from 'rh-vue-ui'
+import 'rh-vue-ui/dist/rh-vue-ui.css'
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
